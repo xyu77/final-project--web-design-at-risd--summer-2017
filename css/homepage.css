@@ -1,27 +1,274 @@
+
 body {
-/*   background-color: black;*/
-/*   font-family: 'Zilla Slab', serif;*/
-   font-size: 16px;
 
-
- }
- p {
-  margin: 20px;
-}
-
-h1 {
-  font-size: 30px;
-/*  font-weight: 800;*/
-  text-align: center;
-  padding: 30px;
-}
-
-
-html {
-
+/*   background-color: rgb(215, 215, 215);*/
+   font-family: 'Zilla Slab', serif;
+   line-height: 24px;
    background-image: url(../img/logo_sticker.png);
-  background-position: center;
-  background-size: 60%;
-  background-repeat: no-repeat;
-  margin-top: 300px;
+   background-color: black;
+   background-position: center center;
+/*   background-size: 60%;*/
+   background-repeat: no-repeat;
+
 }
+
+
+
+
+/*Media quary*/
+
+@media (max-width: 680px) {
+ body {
+  background-size: 80%;
+ }
+ .nav2 a {
+padding-top: 10px;
+  padding-bottom: 10px;
+ }
+ .nav1 a {
+padding-top: 10px;
+  padding-bottom: 10px;
+ }
+
+}
+
+@media (min-width: 681px) and (max-width: 900px){
+  body {
+  background-size: 60%;
+ }
+ .nav1 a {
+  padding-top: 20px;
+  padding-bottom: 20px;
+ }
+  .nav2 a {
+padding-top: 20px;
+  padding-bottom: 20px;
+ }
+}
+
+@media (min-width: 901px){
+
+  body {
+  background-size: 50%;
+ }
+ .nav1 a {
+  padding-top: 20px;
+  padding-bottom: 20px;
+ }
+  .nav2 a {
+padding-top: 20px;
+  padding-bottom: 20px;
+ }
+}
+
+
+
+
+
+/*animation*/
+
+@keyframes breath {
+   from {
+        background-color: white;
+   }
+
+   to {
+     background-color: black;
+   }
+}
+
+#body {
+   animation: 1s linear 0s none running breath;
+   width: 100vw;
+   height: 100vh;
+   background-size: cover;
+}
+
+@keyframes appear {
+   from {
+        background: black;
+   }
+   to {
+     background: white;
+   }
+}
+
+
+.nav1 a {
+   animation: 2s linear 0s none running appear;
+
+}
+.nav2 a {
+   animation: 2s linear 0s none running appear;
+
+}
+
+
+
+
+/*navigation bar*/
+
+
+
+
+nav ul li {
+  display: inline-block;
+  width: 50%;
+  float: left;
+  text-align: center;
+  z-index: 1;
+}
+
+
+
+li {
+list-style-type: none;
+}
+
+
+
+/*shape and display of the nav bar*/
+.nav1 a {
+ margin-top: 20;
+  display: block;
+  background: white;
+  color: black;
+  font-weight: 700;
+  text-decoration: none;
+  width: 150px;
+  float: left;
+
+  letter-spacing: 2px;
+
+}
+
+.nav2 a {
+
+  display: block;
+  background: white;
+  color: black;
+  font-weight: 700;
+  text-decoration: none;
+    width: 150px;
+    float:right;
+
+  letter-spacing: 2px;
+  letter-spacing: 2px;
+
+}
+
+
+
+
+.nav1 a:hover {
+  background-color: red !important;
+  color: white;
+}
+
+.nav2 a:hover {
+  background-color: red !important;
+  color: white;
+}
+
+/*beautiful dropdown sublist!!!!!*/
+
+
+.left {
+   list-style-type: none;
+   font-size: 15px;
+   margin: 0px;
+   padding: 0px;
+   display: none;
+
+}
+
+.right {
+   list-style-type: none;
+   font-size: 15px;
+   margin: 0px;
+   padding: 0px;
+   display: none;
+}
+
+.nav1 :hover >.left {
+  display: block;
+
+}
+.nav2 :hover >.right {
+  display: block;
+}
+
+.right li {
+   width: 100%;
+   list-style-type: none;
+}
+.left li {
+  width: 100%;
+     list-style-type: none;
+}
+
+
+
+#body{
+  position: relative;
+}
+
+
+
+/*
+div {
+  border: 5px solid red;
+}
+*/
+
+p {
+
+  border: 5px solid red;
+
+ padding: 30px;
+  color: red;
+font-size: 150%;
+ position: absolute;
+ text-align: center;
+ line-height: 27px;
+
+/* top: 60vh; left: 30vw;*/
+top: 40%; bottom: 40%;
+right: 20%; left: 20%;
+/* */
+}
+span {
+  font-size: 280%;
+}
+
+b {
+  font-size: 100%;
+  font-weight: 900;
+  letter-spacing: 25px;
+
+}
+
+
+/*footer*/
+/*
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -50px;
+}
+.footer,
+.push {
+  height: 50px;
+}
+
+footer {
+  height: 50px;
+   color: white;
+   text-align: right;
+   font-size: 11px;
+   margin-right: 30px;
+}
+*/

@@ -1,138 +1,176 @@
+
 body {
 
-/*   font-family: 'Zilla Slab', serif;*/
-   font-size: 16px;
-
-
- }
- p {
-  margin: 20px;
+   background-color: rgb(215, 215, 215);
+   font-family: 'Zilla Slab', serif;
+   line-height: 24px;
+   background-image: url(../img/logo_sticker.jpg);
+   background-repeat: no-repeat;
 }
+header {
+
+}
+/*p {
+  margin-bottom: 20px;
+}*/
+#paragraph {
+   margin: 80px;
+
+}
+.qoute {
+  border: 1px solid gray;
+  margin-left: 180px;
+  margin-right: 160px;
+  margin-top: 30px;
+   font-size: 18px;
+   padding: 30px;
+/*   background-image: url(../img/piano2.jpg);*/
+}
+
+.qoutecontent {
+
+
+   position: relative;
+
+
+}
+span {
+  text-align: right;
+}
+
+
 
 h1 {
-  font-size: 30px;
-/*  font-weight: 800;*/
-  text-align: center;
-  padding: 30px;
+   font-size: 50px;
+   text-align: center;
+   font-weight: 800;
+   font-family: "Ubuntu Mono", serif;
+   margin-top: 40px;
+
 }
 
-html {
-   background-color: black;
-   background-image: url(../img/logo_sticker.png);
-   background-position: center;
-   background-size: 60%;
-   background-repeat: no-repeat;
+ol {
+   list-style-type: circle;
+   margin-left: 50px;
+   margin-bottom: 20px;
+}
+table {
+/*   border: 1px solid gray;*/
+   border-collapse: collapse;
+   margin: 0px auto;
+   text-align: left;
+   width: 600px;
+   margin-bottom: 80px;
+   margin-top: 0px;
+   color: white;
+   display: none;
+
+}
+table th {
+   height: 28px;
+   border: 1px solid gray;
+   padding-left: 6px;
+   padding-top: 4px;
+   padding-right: 4px;
+
+}
+h2 {
+   font-size: 30px;
+   font-weight: 500;
+   margin-bottom: 40px;
    margin-top: 300px;
-/*   position: absolute;
-   z-index: 100;*/
+   text-align: center;
 }
-
-
-
-nav ul {
-    font-size: 20px;
-}
-
-
-nav ul li {
-  display: inline-block;
-  width: 50%;
-  float: left;
-  text-align: center;
-
-}
-
-
-
 li {
-list-style-type: none;
+   list-style-type: square;
+   margin-left: 60px;
 }
+em {
+   font-size: 120%;
+   font-weight: 600;
+}
+.subtitle {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 20px;
 
-
+}
+b {
+   font-weight: bold;
+}
 
 /*shape and display of the nav bar*/
-.nav1 a {
+nav {
+   text-align: center;
+    font-family: "Ubuntu Mono", serif;
+    font-size: 23px;
+}
+nav a {
 
-  display: block;
-  background: white;
-  color: black;
-  font-weight: 700;
+  display:block;
+  background: #111;
+  color: #fff;
   text-decoration: none;
-  width: 100px;
-  float: left;
-/*  padding: 30px;*/
-
+  padding: 0.5em 1.8em;
+  text-transform: uppercase;
+  font-size: 80%;
   letter-spacing: 2px;
+  text-shadow: 0 -1px 0 #000;
+  margin-top: 80px;
+/*  position: relative;*/
 
-  position: relative;
 }
-
-.nav2 a {
-
-  display: block;
-  background: white;
+nav a:hover {
+  background-color: rgb(151, 217, 237) ;
+  transition: 0.5s;
   color: black;
-  font-weight: 700;
-  text-decoration: none;
-    width: 100px;
-    float:right;
-
-/*  padding: 30px;*/
-
-  letter-spacing: 2px;
-
-  position: relative;
 }
 
 
-
-
-.nav1 a:hover {
-  background-color: red !important;
-  color: white;
-}
-
-.nav2 a:hover {
-  background-color: red !important;
-  color: white;
-}
-
-/*beaudiful dropdown sublist!!!!!*/
-
-
-
-
-
-.left {
-   list-style-type: none;
-   font-size: 15px;
-   margin: 0px;
-   padding: 0px;
-   display: none;
-}
-
-
-.right {
-   list-style-type: none;
-   font-size: 15px;
-   margin: 0px;
-   padding: 0px;
-   display: none;
-}
-
-.nav1 :hover >.left {
+nav a:hover > #foo {
   display: block;
-
-}
-.nav2 :hover >.right {
-  display: block;
+  transition: 0.5s;
 }
 
-.right li {
-   width: 100%;
-   list-style-type: none;
+
+
+
+
+
+
+i {
+   font-style: italic;
+   text-decoration: underline;;
 }
-.left li {
-  width: 100%;
-     list-style-type: none;
+
+u {
+   font-weight: 600;
+}
+
+
+
+
+
+
+/*footer*/
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.wrapper {
+  min-height: 100%;
+
+
+  margin-bottom: -50px;
+}
+.footer,
+.push {
+  height: 50px;
+}
+
+footer {
+   text-align: right;
+   font-size: 11px;
+   margin-right: 30px;
 }
