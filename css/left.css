@@ -300,18 +300,17 @@ iframe {
 
 
 
-#top {
+#top a {
   text-decoration: none;
+  font-family: 'Montserrat', serif;
+  font-size: 16px;
+  color: black;
   background-color: cyan;
- float: right;
-  width: 80px;
+  padding: 3px;
+  float: right;
+  width: 90px;
   height:20px;
   top: 70vh;right: 0vw;
   position: fixed;
-}
-span {
-  text-decoration: none;
-  color: white;
-/*  float: right;*/
 }
 
