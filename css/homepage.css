@@ -18,88 +18,119 @@ body {
 /*Media quary*/
 
 @media (max-width: 680px) {
- body {
-  background-size: 80%;
- }
- .nav2 a {
-padding-top: 10px;
-  padding-bottom: 10px;
- }
- .nav1 a {
-padding-top: 10px;
-  padding-bottom: 10px;
- }
-
+           body {
+            background-size: 80%;
+           }
+           .nav2 a {
+          padding-top: 10px;
+            padding-bottom: 10px;
+           }
+           .nav1 a {
+          padding-top: 10px;
+            padding-bottom: 10px;
+           }
 }
 
 @media (min-width: 681px) and (max-width: 900px){
-  body {
-  background-size: 60%;
- }
- .nav1 a {
-  padding-top: 20px;
-  padding-bottom: 20px;
- }
-  .nav2 a {
-padding-top: 20px;
-  padding-bottom: 20px;
- }
+            body {
+            background-size: 60%;
+           }
+           .nav1 a {
+            padding-top: 20px;
+            padding-bottom: 20px;
+           }
+            .nav2 a {
+          padding-top: 20px;
+            padding-bottom: 20px;
+           }
 }
 
 @media (min-width: 901px){
 
-  body {
-  background-size: 50%;
- }
- .nav1 a {
-  padding-top: 20px;
-  padding-bottom: 20px;
- }
-  .nav2 a {
-padding-top: 20px;
-  padding-bottom: 20px;
- }
+            body {
+            background-size: 50%;
+           }
+           .nav1 a {
+            padding-top: 20px;
+            padding-bottom: 20px;
+           }
+            .nav2 a {
+          padding-top: 20px;
+            padding-bottom: 20px;
+           }
+}
+
+@media  (max-width: 525px) {
+
+          b {
+              letter-spacing: 2px;
+          }
+          span {
+            font-size: 180%;
+          }
+
 }
 
 
+@media (min-width: 526px) and (max-width: 800px) {
+          b {
+              letter-spacing: 10px;
+          }
+          span {
+
+            font-size: 280%;
+          }
+
+}
+
+@media (min-width: 801px) {
+          b{
+              letter-spacing: 25px;
+          }
+          span {
+
+          font-size: 280%;
+          }
+
+}
 
 
 
 /*animation*/
 
 @keyframes breath {
-   from {
-        background-color: white;
-   }
+       from {
+            background-color: white;
+       }
 
-   to {
-     background-color: black;
-   }
-}
+       to {
+         background-color: black;
+       }
+    }
 
-#body {
-   animation: 1s linear 0s none running breath;
-   width: 100vw;
-   height: 100vh;
-   background-size: cover;
+    #body {
+       animation: 1s linear 0s none running breath;
+       width: 100vw;
+       height: 100vh;
+       background-size: cover;
 }
 
 @keyframes appear {
-   from {
-        background: black;
-   }
-   to {
-     background: white;
-   }
-}
+       from {
+            background: black;
+       }
+       to {
+         background: white;
+       }
+    }
 
 
-.nav1 a {
-   animation: 2s linear 0s none running appear;
+    .nav1 a {
+       animation: 2s linear 0s none running appear;
 
-}
-.nav2 a {
-   animation: 2s linear 0s none running appear;
+    }
+    .nav2 a {
+       animation: 2s linear 0s none running appear;
 
 }
 
@@ -235,18 +266,19 @@ font-size: 150%;
 /* top: 60vh; left: 30vw;*/
 top: 40%; bottom: 40%;
 right: 20%; left: 20%;
-/* */
-}
-span {
-  font-size: 280%;
+
 }
 
 b {
   font-size: 100%;
   font-weight: 900;
-  letter-spacing: 25px;
+
 
 }
+
+
+
+
 
 
 /*footer*/
