@@ -1,6 +1,6 @@
 body {
 
-   background-color: hsl(31, 100%, 7%);
+   background-color: hsl(200, 39%, 35%);
    font-family: 'Zilla Slab', serif;
    line-height: 24px;
    background-position: center center;
@@ -96,7 +96,7 @@ body {
         }
 }
     #body {
-       animation: 1s linear 0s none running breath;
+       animation: 0.5s linear 0s none running breath;
        width: 100vw;
        height: 100vh;
        background-size: cover;
