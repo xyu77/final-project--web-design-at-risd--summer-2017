@@ -63,7 +63,10 @@ body {
 @media  (max-width: 525px) {
 
           b {
-              letter-spacing: 2px;
+              letter-spacing: 3px;
+              font-size: 90%
+              font-weight:600;
+         /*     display: none;*/
           }
           span {
             font-size: 180%;
@@ -75,10 +78,12 @@ body {
 @media (min-width: 526px) and (max-width: 800px) {
           b {
               letter-spacing: 10px;
+              font-size: 100%;
+              font-weight: 900;
           }
           span {
 
-            font-size: 280%;
+            font-size: 240%;
           }
 
 }
@@ -86,6 +91,8 @@ body {
 @media (min-width: 801px) {
           b{
               letter-spacing: 25px;
+               font-size: 100%;
+              font-weight: 900;
           }
           span {
 
@@ -270,8 +277,7 @@ right: 20%; left: 20%;
 }
 
 b {
-  font-size: 100%;
-  font-weight: 900;
+
 
 
 }
