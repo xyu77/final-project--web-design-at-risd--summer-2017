@@ -1,0 +1,222 @@
+body {
+
+/*   background-color: hsl(120, 15%, 15%);*/
+   font-family: 'Zilla Slab', serif;
+   line-height: 24px;
+   background-position: center center;
+/*   background-size: 60%;*/
+   background-repeat: no-repeat;
+
+}
+/*Media quary*/
+
+@media (max-width: 680px) {
+           /*body {
+            background-size: 80%;
+           }*/
+           .nav2 a {s
+          padding-top: 10px;
+            padding-bottom: 10px;
+           }
+           .nav1 a {
+          padding-top: 10px;
+            padding-bottom: 10px;
+           }
+}
+
+@media (min-width: 681px) and (max-width: 900px){
+           /* body {
+            background-size: 60%;
+           }*/
+           .nav1 a {
+            padding-top: 20px;
+            padding-bottom: 20px;
+           }
+            .nav2 a {
+          padding-top: 20px;
+            padding-bottom: 20px;
+           }
+}
+
+@media (min-width: 901px){
+
+            /*body {
+            background-size: 50%;
+           }*/
+           .nav1 a {
+            padding-top: 20px;
+            padding-bottom: 20px;
+           }
+            .nav2 a {
+          padding-top: 20px;
+            padding-bottom: 20px;
+           }
+}
+
+
+@keyframes appear {
+       from {
+            background: black;
+       }
+       to {
+         background: white;
+       }
+    }
+
+
+    .nav1 a {
+       animation: 2s linear 0s none running appear;
+
+    }
+    .nav2 a {
+       animation: 2s linear 0s none running appear;
+
+}
+@keyframes breath {
+       from {
+            background-color: white;
+       }
+
+       50% {
+         background-color: hsl(120, 15%, 15%);
+       }
+
+
+        to {
+          background-color: transparent;
+        }
+}
+    #body {
+       animation: 1s linear 0s none running breath;
+       width: 100vw;
+       height: 100vh;
+       background-size: cover;
+    }
+
+
+
+
+/*navigation bar*/
+
+
+
+
+nav ul li {
+  display: inline-block;
+  width: 50%;
+  float: left;
+  text-align: center;
+  z-index: 1;
+}
+
+
+
+li {
+list-style-type: none;
+}
+
+
+
+/*shape and display of the nav bar*/
+.nav1 a {
+ margin-top: 20;
+  display: block;
+  background: white;
+  color: black;
+  font-weight: 700;
+  text-decoration: none;
+  width: 150px;
+  float: left;
+
+  letter-spacing: 2px;
+
+}
+
+.nav2 a {
+
+  display: block;
+  background: white;
+  color: black;
+  font-weight: 700;
+  text-decoration: none;
+    width: 150px;
+    float:right;
+
+  letter-spacing: 2px;
+  letter-spacing: 2px;
+
+}
+
+
+
+
+.nav1 a:hover {
+  background-color: red !important;
+  color: white;
+}
+
+.nav2 a:hover {
+  background-color: red !important;
+  color: white;
+}
+
+/*beautiful dropdown sublist!!!!!*/
+
+
+.left {
+   list-style-type: none;
+   font-size: 15px;
+   margin: 0px;
+   padding: 0px;
+   display: none;
+
+}
+
+.right {
+   list-style-type: none;
+   font-size: 15px;
+   margin: 0px;
+   padding: 0px;
+   display: none;
+}
+
+.nav1 :hover >.left {
+  display: block;
+
+}
+.nav2 :hover >.right {
+  display: block;
+}
+
+.right li {
+   width: 100%;
+   list-style-type: none;
+}
+.left li {
+  width: 100%;
+     list-style-type: none;
+}
+
+
+
+#body{
+  position: relative;
+}
+
+
+#pagebody {
+
+}
+
+
+#container {
+   border: 1px solid black;
+   width: 300px;
+   height: 300px;
+   position: absolute;
+   top: 20vh; left: 10vw;
+}
+#container img {
+   height: 100%;
+
+}
