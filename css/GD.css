@@ -1,6 +1,6 @@
 body {
 
-   background-color: brown;
+   background-color: hsl(31, 100%, 7%);
    font-family: 'Zilla Slab', serif;
    line-height: 24px;
    background-position: center center;
@@ -213,12 +213,12 @@ list-style-type: none;
 #container {
 /*   border: 1px solid black;*/
    width: 100vw;
-   height: 140vh;
+   height: 120vh;
 
 }
 #container img {
    margin-top: 30px;
-   height: 60%;
+   height: 70%;
 
 }
 img {
@@ -226,9 +226,12 @@ img {
 }
 h3 {
    text-align: center;
+   color: white;
+   font-size: 20px;
 }
 h1 {
    text-align: center;
+   color: white;
    font-family: 'Montserrat', serif;
    font-size: 40px;
    font-weight: 800;
@@ -237,6 +240,7 @@ h1 {
    top:100px;
 }
 h2 {
+   color: white;
    font-family: 'Montserrat', serif;
    font-size: 25px;
    font-weight: 600;
@@ -251,9 +255,15 @@ h2 {
    left:40%; right:40%;
 }
 
-
+.aa a{
+   text-decoration: none;
+   color: cyan;
+}
 
 .aa a:hover {
    background-color: red;
 
+}
+.aa li {
+   line-height: 30px;
 }
