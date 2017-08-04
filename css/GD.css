@@ -1,6 +1,6 @@
 body {
 
-/*   background-color: hsl(120, 15%, 15%);*/
+   background-color: brown;
    font-family: 'Zilla Slab', serif;
    line-height: 24px;
    background-position: center center;
@@ -14,7 +14,7 @@ body {
            /*body {
             background-size: 80%;
            }*/
-           .nav2 a {s
+           .nav2 a {
           padding-top: 10px;
             padding-bottom: 10px;
            }
@@ -65,11 +65,11 @@ body {
 
 
     .nav1 a {
-       animation: 2s linear 0s none running appear;
+       animation: 1s linear 0s none running appear;
 
     }
     .nav2 a {
-       animation: 2s linear 0s none running appear;
+       animation: 1s linear 0s none running appear;
 
 }
 @keyframes breath {
@@ -141,8 +141,6 @@ list-style-type: none;
   text-decoration: none;
     width: 150px;
     float:right;
-
-  letter-spacing: 2px;
   letter-spacing: 2px;
 
 }
@@ -204,19 +202,58 @@ list-style-type: none;
 }
 
 
-#pagebody {
-
+.pagebody {
+ position: absolute;
+ top: 100vh;
+ width: 100%;
+ height: 100%;
 }
 
 
 #container {
-   border: 1px solid black;
-   width: 300px;
-   height: 300px;
-   position: absolute;
-   top: 20vh; left: 10vw;
+/*   border: 1px solid black;*/
+   width: 100vw;
+   height: 140vh;
+
 }
 #container img {
-   height: 100%;
+   margin-top: 30px;
+   height: 60%;
+
+}
+img {
+   margin: 0px auto;
+}
+h3 {
+   text-align: center;
+}
+h1 {
+   text-align: center;
+   font-family: 'Montserrat', serif;
+   font-size: 40px;
+   font-weight: 800;
+   position: absolute;
+   left:20%; right:20%;
+   top:100px;
+}
+h2 {
+   font-family: 'Montserrat', serif;
+   font-size: 25px;
+   font-weight: 600;
+}
+.aa {
+   text-align: center;
+   font-family: 'Montserrat', serif;
+   font-size: 20px;
+   font-weight: 800;
+   position: absolute;
+   top: 50vh;
+   left:40%; right:40%;
+}
+
+
+
+.aa a:hover {
+   background-color: red;
 
 }
